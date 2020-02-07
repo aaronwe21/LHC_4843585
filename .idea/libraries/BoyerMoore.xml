@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="BoyerMoore">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/sa_boyerMoore/jar/BoyerMoore.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

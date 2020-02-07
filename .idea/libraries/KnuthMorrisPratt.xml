@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="KnuthMorrisPratt">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/sa_knuthMorrisPratt/jar/KnuthMorrisPratt.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

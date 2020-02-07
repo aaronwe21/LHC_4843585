@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LHC_4843585.iml" filepath="$PROJECT_DIR$/LHC_4843585.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sa_boyerMoore/sa_boyerMoore.iml" filepath="$PROJECT_DIR$/sa_boyerMoore/sa_boyerMoore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sa_knuthMorrisPratt/sa_knuthMorrisPratt.iml" filepath="$PROJECT_DIR$/sa_knuthMorrisPratt/sa_knuthMorrisPratt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sa_native/sa_native.iml" filepath="$PROJECT_DIR$/sa_native/sa_native.iml" />
+    </modules>
+  </component>
+</project>
