@@ -24,4 +24,8 @@ public class USP implements IUSP {
     public int takeOut() {
         return 0;
     }
+
+    public Battery[] getBatteries() {
+        return batteries;
+    }
 }

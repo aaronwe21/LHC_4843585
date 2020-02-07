@@ -163,6 +163,7 @@ public class Main {
         //controlCenter.startExperiment(ExperimentScope.ESFull);
         controlCenter.startExperiment();
 
+        System.out.println("Test");
         // Test output
         //detector.viewExperiments();
     }

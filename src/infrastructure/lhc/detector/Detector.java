@@ -93,4 +93,8 @@ public class Detector extends Subscriber implements IDetector {
             this.search(experiment);
         }
     }
+
+    public List<IExperiment> getExperimentList() {
+        return experimentList;
+    }
 }
