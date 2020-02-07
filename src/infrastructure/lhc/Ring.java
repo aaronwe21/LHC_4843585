@@ -61,7 +61,7 @@ public class Ring extends Subscriber implements IRing {
         this.energy += delta;
     }
 
-    private String structureToString(int[][][] structure) {
+    public String structureToString(int[][][] structure) {
         StringBuilder ret = new StringBuilder();
         for (int i = 0; i < structure.length; i++) {
             for (int j = 0; j < structure[i].length; j++) {
@@ -101,15 +101,30 @@ public class Ring extends Subscriber implements IRing {
         this.isActivated = false;
     }
 
-    private void executeExperiment(int initialEnergy) {
+
+
+    public void executeExperiment(int initialEnergy) {
         this.activate(initialEnergy);
         this.activateMagneticField();
         this.releaseProton();
         while(this.energy < 300000) {
             increaseEnergy(25000);
         }
+
         this.collide();
         this.shutdown();
+    }
+
+    public int getEnergy() {
+        return energy;
+    }
+
+    public IProton getProton1() {
+        return proton1;
+    }
+
+    public IProton getProton2() {
+        return proton2;
     }
 
     @Subscribe

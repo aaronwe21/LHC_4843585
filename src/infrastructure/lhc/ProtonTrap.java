@@ -22,6 +22,8 @@ public class ProtonTrap implements IProtonTrap {
         }
     }
 
+
+
     public void loadData(int id, String dataFilePath) {
         try {
             String content = new String(Files.readAllBytes(Paths.get(dataFilePath)));
@@ -44,5 +46,9 @@ public class ProtonTrap implements IProtonTrap {
 
     public IProton release() {
         return this.protons.poll();
+    }
+
+    public Queue<IProton> getProtons() {
+        return protons;
     }
 }
